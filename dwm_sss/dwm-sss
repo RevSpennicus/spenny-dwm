@@ -1,0 +1,8 @@
+#! /usr/local/bin/zsh
+
+while true;
+do
+    d=$(date '+%a %b %d, %H:%M:%S')
+    xsetroot -name "$d" 
+    sleep 0.1;
+done;
