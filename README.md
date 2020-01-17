@@ -1,6 +1,6 @@
 # spenny-dwm
 
-![screenshot of spenny-dwm](http://imgur.com/MxLSkCE)
+![screenshot of spenny-dwm](https://github.com/RevSpennicus/spenny-dwm/blob/master/2020-01-17-174925.png?raw=true)
 
 This is my personal configuration of dwm by suckless (https://dwm.suckless.org/), with a colorscheme inspired by Evangelion Unit 01. The config.mk file is set up to compile on FreeBSD, A simplified version of dwm-sss by joeiddon (https://github.com/joeiddon/dwm_sss) is included to display the clock. This script has been modified to run under zsh, so if you use bash or another terminal editor be sure to change the top line to your relevant shell path. 
 
