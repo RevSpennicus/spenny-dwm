@@ -13,5 +13,6 @@ This is my personal configuration of dwm by suckless (https://dwm.suckless.org/)
 + powerline-fonts
 + sterm
 + dmenu
++ emprint (take screenshots with MODKEY + PrSc)
 
 If you're using FreeBSD, you should be able to simply clone this repository and run "sudo make clean install" right out of the box. If you're on Linux or any other alternative you may need to change config.mk to suit your needs. Once installed, simply add the included .xinitrc file to your home directory and restart your X server.  
