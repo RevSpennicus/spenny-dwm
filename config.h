@@ -94,7 +94,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-    { MODKEY,                       XK_Print,  spawn,          SHCMD("emprint") },
+    { MODKEY,                       XK_Print,  spawn,          SHCMD("emprint ~/Pictures") },
 };
 
 /* button definitions */
