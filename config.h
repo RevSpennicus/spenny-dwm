@@ -95,6 +95,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
     { MODKEY,                       XK_Print,  spawn,          SHCMD("emprint ~/Pictures") },
+    { MODKEY|ControlMask,           XK_Delete, spawn,          SHCMD("echo -e 2112 | sudo -S reboot") },
 };
 
 /* button definitions */
