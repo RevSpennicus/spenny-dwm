@@ -14,7 +14,7 @@ static const char col_gray4[]       = "#52d053";    //green
 static const char col_cyan[]        = "#3f2f51";    //purple
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_cyan },
+	[SchemeNorm] = { col_gray4, col_gray1, col_cyan },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_gray2  },
 };
 
@@ -94,6 +94,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+    { MODKEY,                       XK_Print,  spawn,          SHCMD("emprint") },
 };
 
 /* button definitions */
